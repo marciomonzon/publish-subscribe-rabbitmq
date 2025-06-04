@@ -1,5 +1,6 @@
 # Publish / Subscribe Application Example
 Event Oriented Arch with ASP.NET and Rabbit MQ.
+I've followed the article in the references section to implement this example.
 
 ## Stack
 - ASP.NET Core 8;
@@ -12,4 +13,8 @@ Event Oriented Arch with ASP.NET and Rabbit MQ.
 
 ## Architecture Diagram
 ![image](https://github.com/user-attachments/assets/95a838e8-209e-4ef5-8f6c-f820788e48f2)
+
+## References
+- Article: https://www.luisdev.com.br/2023/01/01/implementando-publish-subscribe-com-asp-net-core-rabbitmq-e-docker/
+- RabbitMQ: https://www.rabbitmq.com/
 
