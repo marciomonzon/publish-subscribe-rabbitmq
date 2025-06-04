@@ -7,6 +7,10 @@ This example was made for learning purpose. Should not be used in production env
 - ASP.NET Core 8;
 - RabbitMQ 6.8;
 
+## Projects
+- CustomerApi: API responsible for publishing the message in the broker;
+- NotificationApi and SalesApi: these are the consumers/subscribed API"s.
+
 ## How it Works?
 - Customer API (publisher) creates the event and sends to the Broker exchange;
 - RabbitMQ put the messages in the exchange's queues;
