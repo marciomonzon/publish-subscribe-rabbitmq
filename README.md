@@ -15,7 +15,7 @@ This example was made for learning purpose. Should not be used in production env
 ## How it Works?
 - Customer API (publisher) creates the event and sends to the Broker (RabbitMQ) exchange;
 - RabbitMQ put the messages in the exchange's queues;
-- Notification and Sales API's are subsribed to the queues, so they will receive the messages.
+- Notification and Sales API's are subscribed to the queues, so they will receive the messages.
 
 ## Architecture Diagram
 ![image](https://github.com/user-attachments/assets/95a838e8-209e-4ef5-8f6c-f820788e48f2)
