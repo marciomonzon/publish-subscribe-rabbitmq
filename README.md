@@ -1,4 +1,4 @@
-# Publish / Subscribe Application Example
+# Publish / Subscribe ASP.NET Core Application Example
 Event Oriented Arch with ASP.NET and Rabbit MQ. <br>
 I've followed the article in the references section to implement this example. <br>
 This example was made for learning purpose. Should not be used in production environment.
