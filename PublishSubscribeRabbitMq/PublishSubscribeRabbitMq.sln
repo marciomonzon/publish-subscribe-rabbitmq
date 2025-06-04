@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6F398778-B41
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{36CAB3F7-AE9E-400E-ABDA-ABDF589C2730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPublisher", "ApiPublisher\ApiPublisher.csproj", "{6AE51966-C89C-45D4-9D7E-269DB7831B91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomersApi", "ApiPublisher\CustomersApi.csproj", "{6AE51966-C89C-45D4-9D7E-269DB7831B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSubscriber", "ApiSubscriber\ApiSubscriber.csproj", "{2FAB41D2-3251-4C99-A0A9-618882A3E013}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesApi", "ApiSubscriber\SalesApi.csproj", "{2FAB41D2-3251-4C99-A0A9-618882A3E013}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{33ABE4B9-5AED-4033-83A4-212CE0D3F735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsApi", "NotificationsApi\NotificationsApi.csproj", "{FFBCFC26-00CB-4653-802C-F6E71B49772B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{33ABE4B9-5AED-4033-83A4-212CE0D3F735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33ABE4B9-5AED-4033-83A4-212CE0D3F735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33ABE4B9-5AED-4033-83A4-212CE0D3F735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBCFC26-00CB-4653-802C-F6E71B49772B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBCFC26-00CB-4653-802C-F6E71B49772B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBCFC26-00CB-4653-802C-F6E71B49772B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBCFC26-00CB-4653-802C-F6E71B49772B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{6AE51966-C89C-45D4-9D7E-269DB7831B91} = {6F398778-B412-44A8-BEEE-01DAA4292503}
 		{2FAB41D2-3251-4C99-A0A9-618882A3E013} = {6F398778-B412-44A8-BEEE-01DAA4292503}
 		{33ABE4B9-5AED-4033-83A4-212CE0D3F735} = {6F398778-B412-44A8-BEEE-01DAA4292503}
+		{FFBCFC26-00CB-4653-802C-F6E71B49772B} = {6F398778-B412-44A8-BEEE-01DAA4292503}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FEB28BF-C220-4BAD-8FE8-6FE77C759676}
