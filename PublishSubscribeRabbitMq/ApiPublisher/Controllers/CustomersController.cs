@@ -1,7 +1,7 @@
-﻿using ApiPublisher.Events;
-using ApiPublisher.Models;
+﻿using ApiPublisher.Models;
 using Microsoft.AspNetCore.Mvc;
 using RabbitMQ.Client;
+using Shared.Events;
 using System.Text;
 using System.Text.Json;
 

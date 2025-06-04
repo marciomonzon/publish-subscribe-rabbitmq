@@ -1,4 +1,4 @@
-﻿namespace ApiPublisher.Events
+﻿namespace Shared.Events
 {
     public class CustomerCreatedEvent
     {
