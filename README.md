@@ -9,7 +9,8 @@ This example was made for learning purpose. Should not be used in production env
 
 ## Projects
 - CustomerApi: API responsible for publishing the message in the broker;
-- NotificationApi and SalesApi: these are the consumers/subscribed API"s.
+- NotificationApi and SalesApi: these are the consumers/subscribed API"s;
+- Shared: Class Library Project containing the Event Class.
 
 ## How it Works?
 - Customer API (publisher) creates the event and sends to the Broker exchange;
