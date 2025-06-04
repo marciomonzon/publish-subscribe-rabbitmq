@@ -1,5 +1,5 @@
 # Publish / Subscribe Application Example
-Event Oriented Arch with ASP.NET and Rabbit MQ.
+Event Oriented Arch with ASP.NET and Rabbit MQ. <br>
 I've followed the article in the references section to implement this example.
 
 ## Stack
