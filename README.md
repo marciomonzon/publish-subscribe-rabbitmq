@@ -13,7 +13,7 @@ This example was made for learning purpose. Should not be used in production env
 - Shared: Class Library Project containing the Event Class.
 
 ## How it Works?
-- Customer API (publisher) creates the event and sends to the Broker exchange;
+- Customer API (publisher) creates the event and sends to the Broker (RabbitMQ) exchange;
 - RabbitMQ put the messages in the exchange's queues;
 - Notification and Sales API's are subsribed to the queues, so they will receive the messages.
 
